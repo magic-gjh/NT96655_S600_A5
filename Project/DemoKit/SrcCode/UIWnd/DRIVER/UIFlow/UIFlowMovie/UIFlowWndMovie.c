@@ -1950,8 +1950,14 @@ INT32 UIFlowWndMovie_OnStorageSlow(VControl *pCtrl, UINT32 paramNum, UINT32 *par
 #if (_MODEL_DSC_ == _MODEL_CARDV_)	     
   //  Ux_PostEvent(NVTEVT_KEY_UP, 3, NVTEVT_KEY_PRESS, 0, UIFlowWndMovie_Restart_Rec);
 #else
-  //  Ux_PostEvent(NVTEVT_KEY_SHUTTER2, 3, NVTEVT_KEY_PRESS, 0, UIFlowWndMovie_Restart_Rec);
+  //Ux_PostEvent(NVTEVT_KEY_SHUTTER2, 3, NVTEVT_KEY_PRESS, 0, UIFlowWndMovie_Restart_Rec);
 #endif	
+	if(gMovData.State == MOV_ST_REC)
+	{
+		FlowMovie_StopRec();
+		Ux_PostEvent(NVTEVT_KEY_SHUTTER2, 1, NVTEVT_KEY_PRESS);
+		
+	}
 
     return NVTEVT_CONSUME;
     #endif
@@ -2160,63 +2166,82 @@ void Show_RD_Mode(UINT32 mode)
 
 void Show_RD_Speed(UINT32 speed,BOOL Enb)
 {
-    UINT32 SpeedTotal;
+	UINT32 SpeedTotal;
     UINT32 SpeedTotal1,SpeedTotal2,SpeedTotal3;
 	static UINT8 flag = 0;
-       SpeedTotal=speed; 
+	if(speed < 7)
+	{
+		speed = 0;	
+	}
+	
+    SpeedTotal=speed;
        
 	SpeedTotal1=SpeedTotal/100;
-	if((SpeedTotal1<0)||(SpeedTotal1>9))
-	  SpeedTotal1=0;
+	if((SpeedTotal1 < 0)||(SpeedTotal1 > 9))
+	{
+		SpeedTotal1 = 0;
+	}
     
 	SpeedTotal2=(SpeedTotal%100)/10;	
-	if((SpeedTotal2<0)||(SpeedTotal2>9))
-	  SpeedTotal2=0;	
+	if((SpeedTotal2 < 0)||(SpeedTotal2 > 9))
+	{
+	 	SpeedTotal2=0;
+	}
     
 	SpeedTotal3=(SpeedTotal%100)%10;	
 	if((SpeedTotal3<0)||(SpeedTotal3>9))
-	  SpeedTotal3=0;	
+	{
+		SpeedTotal3=0;	
+	}
 
-         UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_LCtrl,FALSE);
-         UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_MCtrl,FALSE);
-         UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_HCtrl,FALSE);
-         UxCtrl_SetShow(&UIFlowWndMovie_CurSpeedCtrl,FALSE);
+     UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_LCtrl,FALSE);
+     UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_MCtrl,FALSE);
+     UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_HCtrl,FALSE);
+     UxCtrl_SetShow(&UIFlowWndMovie_CurSpeedCtrl,FALSE);
              
-        if(Enb)
-        {   
-            UxState_SetData(&UIFlowWndMovie_CurSpeed_HCtrl,STATE_CURITEM,SpeedTotal1);
-            UxState_SetData(&UIFlowWndMovie_CurSpeed_MCtrl,STATE_CURITEM,SpeedTotal2);
-            UxState_SetData(&UIFlowWndMovie_CurSpeed_LCtrl,STATE_CURITEM,SpeedTotal3);
+     if(Enb)
+     {   
+          UxState_SetData(&UIFlowWndMovie_CurSpeed_HCtrl,STATE_CURITEM,SpeedTotal1);
+          UxState_SetData(&UIFlowWndMovie_CurSpeed_MCtrl,STATE_CURITEM,SpeedTotal2);
+          UxState_SetData(&UIFlowWndMovie_CurSpeed_LCtrl,STATE_CURITEM,SpeedTotal3);
             
-            if((SpeedTotal1==0)&&(SpeedTotal2==0))
-            {
-                UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_HCtrl,FALSE);
-                UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_MCtrl,FALSE);            
-                UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_LCtrl,TRUE);                            
-            }         
-            else if((SpeedTotal1==0)&&(SpeedTotal2!=0))
-            {
-                UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_HCtrl,FALSE);
-                UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_MCtrl,TRUE);            
-                UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_LCtrl,TRUE);                            
-            }   
-            else if(SpeedTotal1!=0)
-            {
-                UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_HCtrl,TRUE);
-                UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_MCtrl,TRUE);            
-                UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_LCtrl,TRUE);                                            
-            }  
-			
-			UxCtrl_SetShow(&UIFlowWndMovie_CurSpeedCtrl,TRUE);
+          if((SpeedTotal1 == 0)&&(SpeedTotal2 == 0))
+          {
+               UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_HCtrl,FALSE);
+               UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_MCtrl,FALSE);            
+               UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_LCtrl,TRUE);                            
+           }         
+           else if((SpeedTotal1 == 0)&&(SpeedTotal2 != 0))
+           {
+               UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_HCtrl,FALSE);
+               UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_MCtrl,TRUE);            
+               UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_LCtrl,TRUE);                            
+           }   
+           else if(SpeedTotal1 != 0)
+           {
+         	   UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_HCtrl,TRUE);
+               UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_MCtrl,TRUE);            
+               UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_LCtrl,TRUE);                                            
+           }  
+		   else if((SpeedTotal1 == 0)&&(SpeedTotal2 == 0)&&(SpeedTotal3 == 0))
+		   {
+				UxState_SetData(&UIFlowWndMovie_CurSpeed_LCtrl,STATE_CURITEM,SpeedTotal3);
+           		UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_LCtrl,TRUE);
+           		UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_MCtrl,FALSE);
+           		UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_HCtrl,FALSE);
+		   }
+		   
+		   UxCtrl_SetShow(&UIFlowWndMovie_CurSpeedCtrl,TRUE);
                
-        }
-        else
-        {
-             UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_LCtrl,TRUE);
-             UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_MCtrl,FALSE);
-             UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_HCtrl,FALSE);
-             UxCtrl_SetShow(&UIFlowWndMovie_CurSpeedCtrl,TRUE);
-        }        
+     }
+     else
+     {
+           UxState_SetData(&UIFlowWndMovie_CurSpeed_LCtrl,STATE_CURITEM,SpeedTotal3);
+           UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_LCtrl,TRUE);
+           UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_MCtrl,FALSE);
+           UxCtrl_SetShow(&UIFlowWndMovie_CurSpeed_HCtrl,FALSE);
+           UxCtrl_SetShow(&UIFlowWndMovie_CurSpeedCtrl,TRUE);
+      }        
 }
 void Show_RD_Distance(UINT32 distance)
 {
@@ -2541,7 +2566,12 @@ void UIFlowWndMovie_EdogInfo(void)
       if(RMCInfo.Status == 'A')
       Show_RD_Angle(RMCInfo.Angle);
 
-      uiCurrentSpeed=(UINT32)(RMCInfo.Speed*1.852);
+      uiCurrentSpeed = (UINT32)(RMCInfo.Speed*1.852);
+	  if(uiCurrentSpeed < 7)
+	  {
+	      uiCurrentSpeed = 0;
+	  }
+	   
 	  if(RDInfo.RD_Speed != 0)
 	  {
 	      Show_RD_Speed(RDInfo.RD_Speed,TRUE);

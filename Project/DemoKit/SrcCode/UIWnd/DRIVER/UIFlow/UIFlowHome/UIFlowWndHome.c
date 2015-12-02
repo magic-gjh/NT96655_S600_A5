@@ -107,9 +107,12 @@ void Show_TP_Icon_Normal(void)
 
 INT32 UIFlowWndHome_TP(VControl *pCtrl, UINT32 paramNum, UINT32 *paramArray)
 {
-  UINT32 uiEvent;
+ 	UINT32 uiEvent;
     UINT32 P1,P2;
     UINT32  uiSoundMask;
+	static BOOL SoundVolSet =FALSE;
+	static UINT32 SoundVol = 0;
+
   
     if(paramNum>0)
         uiEvent = paramArray[0];	
@@ -178,7 +181,13 @@ INT32 UIFlowWndHome_TP(VControl *pCtrl, UINT32 paramNum, UINT32 *paramArray)
 
 		case GESTURE_CKICK:
 			P1= paramArray[1];
-			P2=paramArray[2];  
+			P2=paramArray[2]; 
+			if(SoundVolSet == TRUE)
+			{
+				SoundVolSet = FALSE;
+				DrvSound_SetVol(SoundVol);
+				debug_msg("DrvSound_GetVol = %d\r\n",DrvSound_GetVol());
+			}
 	           // debug_msg("^G movie GESTURE_RELEASE\r\n");
 	           guiFlowHomeCounter=0;
 		    if(TPIsOnRange(&UIFlowWndHome_Status_MovieModeCtrl,P1,P2)==TRUE)
@@ -212,9 +221,19 @@ INT32 UIFlowWndHome_TP(VControl *pCtrl, UINT32 paramNum, UINT32 *paramArray)
 		    	      //if(uiHomeKeyPressed==UIFLOW_HOME_TOUCH_KEY_PLAYBACK_MODE)
 		    	       {
 			    	       if(System_GetState(SYS_STATE_CURRMODE)!=PRIMARY_MODE_PLAYBACK)
-					 Ux_SendEvent(0, NVTEVT_SYSTEM_MODE, 1, PRIMARY_MODE_PLAYBACK);	
-				       else
-					  Ux_CloseWindow(&UIFlowWndHomeCtrl, 0);  						   
+			    	       {
+			    	       		SoundVol = DrvSound_GetVol();
+    							debug_msg("DrvSound_GetVol = %d\r\n",SoundVol);
+								DrvSound_SetVol(0);
+								SoundVolSet = TRUE;
+					 			Ux_SendEvent(0, NVTEVT_SYSTEM_MODE, 1, PRIMARY_MODE_PLAYBACK);	
+								//debug_msg("1111111111\r\n");
+			    	       }
+				       		else
+				       		{
+					  			Ux_CloseWindow(&UIFlowWndHomeCtrl, 0); 
+								//debug_msg("2222222\r\n");
+				       		}
 		    	       }
 		       	
 		    	}	

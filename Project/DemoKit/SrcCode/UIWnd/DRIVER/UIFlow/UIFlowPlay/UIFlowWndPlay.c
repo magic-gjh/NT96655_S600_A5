@@ -34,7 +34,6 @@ MEDIAPLAY_OBJ  g_UIPlayMediaObj                 = {0};
 FST_FILE       gphUIFlowMovPlay_Filehdl         = NULL;
 
 static UINT32  g_uiDateTimerID = NULL_TIMER;
-
 //---------------------UIFlowWndPlayCtrl Control List---------------------------
 CTRL_LIST_BEGIN(UIFlowWndPlay)
 CTRL_LIST_ITEM(UIFlowWndPlay_Panel_PlayMovie)

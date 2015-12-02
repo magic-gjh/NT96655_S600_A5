@@ -43,7 +43,7 @@
 //char gFWExternalVersion[33]="A5.2015.09.28";//FW_VERSION_NUM; 
 //char gFWExternalVersion[33]="A5.2015.10.08";//FW_VERSION_NUM; 
 //char gFWExternalVersion[33]="A5.2015.1106.V0.1";//FW_VERSION_NUM; 
-char gFWExternalVersion[33]="A5.2015.1109.V0.3";//FW_VERSION_NUM; 
+char gFWExternalVersion[33]="A5.2015.1128.V0.1";//FW_VERSION_NUM; 
 
 char* Prj_GetVersionString()
 {
