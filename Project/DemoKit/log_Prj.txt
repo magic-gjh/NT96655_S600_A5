@@ -1,0 +1,1275 @@
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Kernel/SysCfg.c:87:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/main.c:19:
+../../Include/DrvExt/GSensor/GSensor.h:161: warning: function declaration isn't a prototype
+../../Include/DrvExt/GSensor/GSensor.h:162: warning: function declaration isn't a prototype
+../../Include/DrvExt/GSensor/GSensor.h:163: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain.c: In function 'SysInit_ResetShutDownTimerHdl':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain.c:225: warning: implicit declaration of function 'rtc_getPWRStatus'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain.c:229: warning: implicit declaration of function 'Gsensor_ClearCrashMode'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain.c:230: warning: implicit declaration of function 'GSensor_ParkingMode'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain.c:234: warning: implicit declaration of function 'rtc_poweroffPWR'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain.c:247: warning: implicit declaration of function 'rtc_resetShutdownTimer'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain.c: In function 'UserMainProc':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain.c:356: warning: implicit declaration of function 'GSensor_open'
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain_Exe.c:19:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from ./SrcCode/UIConfig.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain_Exe.c:45:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain_Exe.c: In function 'System_OnShutdown':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain_Exe.c:466: warning: implicit declaration of function 'GPIOMap_DVR_PowerOff'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain_Exe.c:471: warning: implicit declaration of function 'GSensor_ParkingMode'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain_Exe.c:540: warning: implicit declaration of function 'GPIOMap_IsLCDBacklightOn'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain_Exe.c:543: warning: implicit declaration of function 'GPIOMap_TurnOnLCDBacklight'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain_Exe.c:544: warning: implicit declaration of function 'System_ResetPowerSaveCount'
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain_Flow_Init.c:27:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain_Flow_Mode.c:38:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysMain_Flow_Sleep.c:27:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysLock.c:41:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysCmdCB.c:44:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysVideo_Exe.c:19:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from ./SrcCode/UIConfig.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysVideo_Exe.c:49:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysVideo_Exe.c: In function 'UI_ShowJPG':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysVideo_Exe.c:1356: warning: unused variable 'GxImgFMT'
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysUsb_Exe.c:19:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysUsb_Exe.c: In function 'System_OnUsbRemove':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysUsb_Exe.c:253: warning: implicit declaration of function 'USB_UnPlugSetFunc'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysUsb_Exe.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysUsb_Exe.c:299: warning: conflicting types for 'USB_UnPlugSetFunc'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysUsb_Exe.c:253: note: previous implicit declaration of 'USB_UnPlugSetFunc' was here
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:19:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieFuncs.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:40:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c: In function 'UI_DetPwrKey':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:449: warning: implicit declaration of function 'rtc_getPWRStatus'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:452: warning: implicit declaration of function 'rtc_resetShutdownTimer'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:461: warning: implicit declaration of function 'GPIO_CLEAR_CMD_PWR_KEY'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:501: warning: implicit declaration of function 'GPIOMap_IsLCDBacklightOn'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:504: warning: implicit declaration of function 'GPIOMap_TurnOnLCDBacklight'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:505: warning: implicit declaration of function 'System_ResetPowerSaveCount'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:513: warning: implicit declaration of function 'GPIO_SET_CMD_PWR_KEY'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c: In function 'MY_DetNormalKeyLVL4':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:756: warning: implicit declaration of function 'GPIO_CLEAR_CMD_MODE_KEY'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:840: warning: implicit declaration of function 'GPIO_SET_CMD_MODE_KEY'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:900: warning: conflicting types for 'System_ResetPowerSaveCount'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:505: note: previous implicit declaration of 'System_ResetPowerSaveCount' was here
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c: In function 'UI_DetReversing_CARIO':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysInput_Exe.c:1091: warning: implicit declaration of function 'GPIOMap_Reversing_CAR'
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:19:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieFuncs.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:48:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:50:
+../../Include/DrvExt/GSensor/Gsensor.h:161: warning: function declaration isn't a prototype
+../../Include/DrvExt/GSensor/Gsensor.h:162: warning: function declaration isn't a prototype
+../../Include/DrvExt/GSensor/Gsensor.h:163: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c: In function 'TouchPanel_InteruptHandle':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:601: warning: implicit declaration of function 'GPIOMap_IsLCDBacklightOn'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:604: warning: implicit declaration of function 'GPIOMap_TurnOnLCDBacklight'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:598: warning: unused variable 'tpPressStatus'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:597: warning: unused variable 'IngerTouchKeyEvent'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:595: warning: unused variable 'vertical'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:595: warning: unused variable 'horizontal'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:595: warning: unused variable 'sum'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:595: warning: unused variable 'speed'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:595: warning: unused variable 'distance'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:594: warning: unused variable 'first_press'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:592: warning: unused variable 'y_press_move_pre'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:592: warning: unused variable 'x_press_move_pre'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:591: warning: unused variable 'y_press_pre'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:591: warning: unused variable 'x_press_pre'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:590: warning: unused variable 'current_tick'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:589: warning: unused variable 'first'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:587: warning: unused variable 'press_counter_move'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:582: warning: unused variable 'y_high_press'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:581: warning: unused variable 'y_low_press'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:580: warning: unused variable 'x_high_press'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:579: warning: unused variable 'x_low_press'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:578: warning: unused variable 'value'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c: In function 'UI_DetAutoLCDOff':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:807: warning: implicit declaration of function 'GPIOMap_TurnOffLCDBacklight'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c: In function 'RD_XZMUI_DATA':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:849: warning: implicit declaration of function 'GetRDInfo'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c: In function 'UI_DetGsensor':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:881: warning: unused variable 'soundcounter'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:879: warning: unused variable 'Z'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:879: warning: unused variable 'Y'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:879: warning: unused variable 'X'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/System/SysPower_Exe.c:878: warning: unused variable 'gsensor_trig'
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UI/SysUICB.c:25:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UI/UIGraphics.c:18:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UI/UIGraphicsID.c:2:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UI/PhotoView.c: In function 'PhotoDisplay2_Update':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UI/PhotoView.c:240: warning: unused variable 'temp'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/MovieStamp/MovieStamp.c: In function 'MovieStamp_Setup':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/MovieStamp/MovieStamp.c:116: warning: implicit declaration of function 'SysGetZHCarNoStamp'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/MovieStamp/MovieStamp.c:116: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast
+../../Include/Common/LibC/string.h:11: note: expected 'const char *' but argument is of type 'int'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/MovieStamp/MovieStamp.c:120: warning: implicit declaration of function 'SysGetNZHCarNoStamp'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/MovieStamp/MovieStamp.c:120: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast
+../../Include/Common/LibC/string.h:11: note: expected 'const char *' but argument is of type 'int'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/PipView.c: In function 'PipView_OnDraw':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/PipView.c:144: warning: implicit declaration of function 'DrvSensor_Det2ndSensor'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Jpg2Movie/Jpg2Movie.c:43: warning: 'sFileName' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Jpg2Movie/Jpg2Movie.c:146: warning: 'JPG2MOV_RecCB' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Jpg2Movie/Jpg2Movie.c:159: warning: 'JPG2MOV_SetRecParam' defined but not used
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/DevCtrl/DevCtrlPhoto.c:36:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Calibration/CalibrationAPI.h:22,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Calibration/CalibrationAPI.c:24:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Calibration/CalibrationAPI.c:26:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Calibration/CalibrationAPI.h:22,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Calibration/CalibrationTbl.c:19:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Calibration/CalibrationTbl.c:25:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Calibration/CalibrationInt.c:21:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Calibration/CalibrationInt.c:21:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Calibration/Sensor/Cal_Dummy_650/Cal_Dummy_650.c:11:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Calibration/Sensor/Cal_Dummy_650/Cal_Dummy_650.c:11:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Mode/UIMode.c:4:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIPhotoMapping.c:8:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIPhotoMapping.c:8:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIConfig.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIConfig.c:22:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIConfig.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIConfig.c:22:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIConfig.c: In function 'UI_ShowLogoFile':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIConfig.c:932: warning: implicit declaration of function 'UI_ShowJPG'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIConfig.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIConfig.c:1076: warning: 'get_key_value' defined but not used
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCalibration/UIMenuWndCalibrationRes.c:8,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCalibration/UIMenuWndCalibration.c:6:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCalibration/UIMenuWndCalibration.c:7:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:8:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c: In function 'MenuCommonOption_UpdateContent':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:59: warning: unused variable 'uiTotalOptionOri'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:59: warning: unused variable 'uiOptionPerPage'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:59: warning: unused variable 'uiOption'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:55: warning: unused variable 'i'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c: In function 'MenuCommonOption_Menu_OnTouchPanelKey':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:178: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:143: warning: unused variable 'CurrentOptionIndex'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:142: warning: unused variable 'i'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:142: warning: unused variable 'index'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:141: warning: unused variable 'uiTotalItemOri'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:140: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:16: warning: 'MenuCommonOptionIndex' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:18: warning: 'MenuCommonOptionCurrentPage' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:19: warning: 'MenuCommonOptionTotalPage' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:20: warning: 'MenuCommonOptionTPKeyHasPressed' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c: In function 'MenuCommonOption_Menu_OnTouchPanelKey':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/MenuCommonOption.c:138: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/TabMenu.c:3:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/TabMenu.c:3:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuMovie/MenuMovie.c:2:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuMovie/MenuMovie.c:2:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuMovie/MenuMovie.c:186: warning: 'MenuCustom_EdogVolume' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuMovie/MenuMovie.c:192: warning: 'MenuCustom_RadarDefault' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuMovie/MenuMovie.c:198: warning: 'MenuCustom_RadarVersion' defined but not used
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuMovie/UIMenuWndEdogVolume.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuMovie/UIMenuWndEdogVolume.c:29: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuMovie/UIMenuWndEdogVolume.c: In function 'UIMenuWndEdogVolume_OnKeyUp':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuMovie/UIMenuWndEdogVolume.c:133: warning: implicit declaration of function 'EdgoRec_PutKeyCommand'
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuMovie/UIMenuWndEdogDefault.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuMovie/UIMenuWndEdogDefault.c: In function 'UIMenuWndEdogDefaultSetting_List_Text_OnKeyEnter':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuMovie/UIMenuWndEdogDefault.c:110: warning: implicit declaration of function 'EdgoRec_PutKeyCommand'
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPhoto/MenuPhoto.c:2:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPhoto/MenuPhoto.c:2:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPhoto/UIMenuWndPhotoExposure.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPhoto/UIMenuWndPhotoExposure.c:12:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPhoto/UIMenuWndPhotoWB.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPhoto/UIMenuWndPhotoWB.c:12:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPhoto/UIMenuWndPhotoColor.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPhoto/UIMenuWndPhotoColor.c:12:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPlay/MenuPlayback.c:2:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPlay/MenuPlayback.c:2:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPlay/UIMenuWndPlayDel.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPlay/UIMenuWndPlayDel.c:11:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPlay/UIMenuWndPlayConfirmDelRes.c:8,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPlay/UIMenuWndPlayConfirmDel.c:6:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPlay/UIMenuWndPlayConfirmDel.c:7:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPlay/UIMenuWndPlaySlideShow.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPlay/UIMenuWndPlaySlideShow.c:11:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPlay/UIMenuWndPlaySlideShowCB.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuPlay/UIMenuWndPlaySlideShowCB.c:15:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/MenuSetup.c:2:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/MenuSetup.c:2:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/MenuSetup.c: In function 'Radar_MenuCallback':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/MenuSetup.c:301: warning: unused variable 'Data'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/MenuSetup.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/MenuSetup.c:85: warning: 'MenuCustom_DateTime' defined but not used
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIFlowWndSetup_datetime.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIFlowWndSetup_datetime.c:16:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIFlowWndSetup_datetime.c: In function 'UIFlowWndSetup_datetime_OnTouchPanelKey':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIFlowWndSetup_datetime.c:277: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIFlowWndSetup_datetime.c:253: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIFlowWndSetup_datetime.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIFlowWndSetup_datetime.c:54: warning: 'itemAMPM_Buf' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIFlowWndSetup_datetime.c:55: warning: 'itemSwitch_Buf' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIFlowWndSetup_datetime.c:58: warning: 'itemOther4_Buf' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIFlowWndSetup_datetime.c: In function 'UIFlowWndSetup_datetime_OnTouchPanelKey':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIFlowWndSetup_datetime.c:251: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupDefaultSetting.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupDefaultSetting.c:11:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupDefaultSetting.c: In function 'UIMenuWndSetupDefaultSetting_OnTouchKey':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupDefaultSetting.c:142: warning: implicit declaration of function 'TPIsOnRangeList'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupDefaultSetting.c:144: warning: implicit declaration of function 'TP_PhaseListItem_Index'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupDefaultSetting.c:125: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupDefaultSetting.c:123: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormat.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormat.c:11:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormat.c: In function 'UIMenuWndSetupFormat_OnTouchKey':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormat.c:128: warning: implicit declaration of function 'TPIsOnRangeList'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormat.c:130: warning: implicit declaration of function 'TP_PhaseListItem_Index'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormat.c:111: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormat.c:109: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormatConfirm.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormatConfirm.c:13:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormatConfirm.c: In function 'UIMenuWndSetupFormatConfirm_OnTouchKey':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormatConfirm.c:202: warning: implicit declaration of function 'TPIsOnRangeList'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormatConfirm.c:204: warning: implicit declaration of function 'TP_PhaseListItem_Index'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormatConfirm.c:185: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupFormatConfirm.c:183: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupVersion.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupVersion.c:11:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupVersion.c: In function 'UIMenuWndSetupVersion_OnTouchKey':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupVersion.c:117: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupVersion.c:99: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupVersion.c:97: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCarNumber.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCarNumber.c:9:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCarNumber.c: In function 'UIMenuWndSetupCarNumber_OnOpen':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCarNumber.c:101: warning: implicit declaration of function 'SysGetZHCarNoStamp'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCarNumber.c:101: warning: passing argument 2 of 'strncpy' makes pointer from integer without a cast
+../../Include/Common/LibC/string.h:7: note: expected 'const char *' but argument is of type 'int'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCarNumber.c: In function 'UIMenuWndSetupCarNumber_OnKeyShutter2':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCarNumber.c:156: warning: implicit declaration of function 'SysSetZHCarNoStamp'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCarNumber.c: In function 'UIMenuWndSetupCarNumber_Tab_OnTouchPanelKey':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCarNumber.c:311: warning: implicit declaration of function 'TPIsRangePossition'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCarNumber.c:502: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCarNumber.c:292: warning: unused variable 'i'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCarNumber.c:291: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCarNumber.c:289: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuMovieSetting.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuMovieSetting.c:10:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuMovieSetting.c: In function 'GotoMenuIremOption':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuMovieSetting.c:88: warning: 'return' with a value, in function returning void
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuMovieSetting.c:75: warning: unused variable 'ItemNum'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuMovieSetting.c: In function 'UIMenuMovieSetting_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuMovieSetting.c:130: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuMovieSetting.c:112: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuMovieSetting.c:110: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuPhotoSetting.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuPhotoSetting.c:10:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuPhotoSetting.c: In function 'GotoPHOTO_MenuItemOption':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuPhotoSetting.c:83: warning: 'return' with a value, in function returning void
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuPhotoSetting.c:70: warning: unused variable 'ItemNum'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuPhotoSetting.c: In function 'UIMenuPhotoSetting_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuPhotoSetting.c:127: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuPhotoSetting.c:109: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuPhotoSetting.c:107: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuSetupSetting.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuSetupSetting.c:10:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuSetupSetting.c: In function 'GotoSetupMenuItemOption':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuSetupSetting.c:68: warning: 'return' with a value, in function returning void
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuSetupSetting.c:55: warning: unused variable 'ItemNum'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuSetupSetting.c: In function 'UIMenuSetupSetting_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuSetupSetting.c:110: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuSetupSetting.c:92: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuSetupSetting.c:90: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuRadarSetting.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuRadarSetting.c:10:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuRadarSetting.c: In function 'GotoRADAR_MenuItemOption':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuRadarSetting.c:66: warning: 'return' with a value, in function returning void
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuRadarSetting.c:53: warning: unused variable 'ItemNum'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuRadarSetting.c: In function 'UIMenuRadarSetting_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuRadarSetting.c:111: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuRadarSetting.c:90: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIMenuRadarSetting.c:88: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIFlowWndCalLCD.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIFlowWndCalLCD.c: In function 'UIFlowWndCalLCD_OnOpen':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIFlowWndCalLCD.c:115: warning: implicit declaration of function 'GetTPWindow'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIFlowWndCalLCD.c:120: warning: implicit declaration of function 'SetCALLCDMode'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIFlowWndCalLCD.c: In function 'UIFlowWndCalLCD_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIFlowWndCalLCD.c:221: warning: implicit declaration of function 'GetCurTPXY'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIFlowWndCalLCD.c:234: warning: implicit declaration of function 'abs'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIFlowWndCalLCD.c:254: warning: implicit declaration of function 'SetTPWindow'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIFlowWndCalLCD.c:255: warning: implicit declaration of function 'SetSPITPData'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIFlowWndCalLCD.c:139: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuCommon/UIFlowWndCalLCD.c:137: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCommonCarNumber.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCommonCarNumber.c:10:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCommonCarNumber.c: In function 'UIMenuWndSetupCommonCarNumber_OnOpen':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCommonCarNumber.c:87: warning: implicit declaration of function 'SysGetNZHCarNoStamp'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCommonCarNumber.c:87: warning: passing argument 2 of 'strncpy' makes pointer from integer without a cast
+../../Include/Common/LibC/string.h:7: note: expected 'const char *' but argument is of type 'int'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCommonCarNumber.c: In function 'UIMenuWndSetupCommonCarNumber_OnKeyShutter2':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCommonCarNumber.c:124: warning: implicit declaration of function 'SysSetNZHCarNoStamp'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCommonCarNumber.c: In function 'UIMenuWndSetupCommonCarNumber_Tab_OnTouchPanelKey':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCommonCarNumber.c:261: warning: implicit declaration of function 'TPIsRangePossition'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCommonCarNumber.c:426: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCommonCarNumber.c:242: warning: unused variable 'i'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCommonCarNumber.c:241: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuSetup/UIMenuWndSetupCommonCarNumber.c:239: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuUSB/UIMenuWndUSB.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIMenu/UIMenuUSB/UIMenuWndUSB.c:12:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndWrnMsgRes.c:8,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndWrnMsg.c:6:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndWrnMsg.c:8:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndWrnMsg.c: In function 'UIFlowWndWrnMsg_OnTouchKey':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndWrnMsg.c:118: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndWrnMsg.c:117: warning: unused variable 'P2'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndWrnMsg.c:117: warning: unused variable 'P1'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndWrnMsg.c:116: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndWaitMomentRes.c:8,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndWaitMoment.c:6:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndWaitMoment.c:7:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndUSBRes.c:8,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndUSB.c:6:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndUSB.c:7:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndProcessing.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowCommon/UIFlowWndProcessing.c:9:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowWndPhoto.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowPhotoFuncs.h:3,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowWndPhoto.c:27:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowWndPhoto.c: In function 'UIFlowWndPhoto_OnExeCapture':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowWndPhoto.c:208: warning: implicit declaration of function 'FlowPhoto_IconDrawSelftimerTime'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowWndPhoto.c:263: warning: implicit declaration of function 'FlowPhoto_IconHideSelftimer'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowWndPhoto.c: In function 'UIFlowWndPhoto_OnBattery':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowWndPhoto.c:416: warning: unused variable 'bBatteryOn'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowWndPhoto.c: In function 'UIFlowWndPhoto_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowWndPhoto.c:569: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowWndPhoto.c:551: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowWndPhoto.c:549: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowPhotoFuncs.c:4:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowPhotoFuncs.c:4:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowPhotoFuncs.c: In function 'FlowPhoto_OnTimer01SecIndex':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowPhotoFuncs.c:236: warning: implicit declaration of function 'FlowPhoto_IconDrawSelftimerTime'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowPhotoFuncs.c:244: warning: implicit declaration of function 'FlowPhoto_IconHideSelftimerTime'
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowPhotoIcons.c:4:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPhoto/UIFlowPhotoIcons.c:4:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovieRes.c:8,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:6:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:7:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:16:
+../../Include/DrvExt/GSensor/Gsensor.h:161: warning: function declaration isn't a prototype
+../../Include/DrvExt/GSensor/Gsensor.h:162: warning: function declaration isn't a prototype
+../../Include/DrvExt/GSensor/Gsensor.h:163: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:316: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowwndMovieUpdateGPSTime':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:349: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:364: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:382: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_OnExeRecord':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:850: warning: implicit declaration of function 'FlowMovie_IconHideLockFile'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:866: warning: extra tokens at end of #endif directive
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_OnOpen':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:1066: warning: implicit declaration of function 'Movie_MenuSizeConfig'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:1056: warning: unused variable 'uiEdogWarningIndex'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:1055: warning: unused variable 'firstpoweron'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_OnKeyMenu':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:1225: warning: unused variable 'i'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:1224: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_OnKeyDown':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:1274: warning: unused variable 'uiEV'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_OnKeyUp':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:1581: warning: unused variable 'uiEV'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_OnKeyMode':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:1728: warning: implicit declaration of function 'FlowMovie_IconDrawLockFile'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_OnMovieOneSec':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:1861: warning: implicit declaration of function 'GSensor_GMA301_CrashMode'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:1871: warning: implicit declaration of function 'GSensor_GMA301_ClearCrashMode'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_UpdateSpeedData':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2061: warning: unused variable 'rtcDate'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2059: warning: unused variable 'Days'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2058: warning: unused variable 'uiTimeZone'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2057: warning: unused variable 'sec'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2057: warning: unused variable 'min'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2057: warning: unused variable 'hour'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2057: warning: unused variable 'year'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2057: warning: unused variable 'month'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2057: warning: unused variable 'day'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'Show_RD_Speed':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2171: warning: unused variable 'flag'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_EdogInfo':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2487: warning: implicit declaration of function 'GetRDInfo'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2488: warning: implicit declaration of function 'GetGPSSingalLvl'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2476: warning: unused variable 'FirstEdog'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_OnTimer':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2764: warning: unused variable 'counter'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_OnCustom1':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2987: warning: implicit declaration of function 'GPIOMap_TurnOnWhiteLight'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2991: warning: implicit declaration of function 'GPIOMap_TurnOffWhiteLight'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:2996: warning: implicit declaration of function 'FlowMovie_IconDrawLED'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_EdogMessage':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:3066: warning: 'return' with no value, in function returning non-void
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:3069: warning: 'return' with no value, in function returning non-void
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:3080: warning: implicit declaration of function 'FlowMovie_DrawRadarStatus'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:3095: warning: implicit declaration of function 'FlowMovie_DrawEdogGPRSStatus'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:3163: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:3237: warning: implicit declaration of function 'FlowMovie_IconDrawAudioOnOff'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:3287: warning: enumeration value 'PIP_STYLE_1T1B2S' not handled in switch
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:3287: warning: enumeration value 'PIP_STYLE_1T1S2B' not handled in switch
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:3287: warning: enumeration value 'PIP_STYLE_2T1S2B' not handled in switch
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:3287: warning: enumeration value 'E_PIP_STYLE' not handled in switch
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:3121: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:1025: warning: 'Speed_buf' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:3119: warning: 'uiEvent' may be used uninitialized in this function
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'UIFlowWndMovie_OnMovieOneSec':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:1806: warning: 'uiRecSecond' may be used uninitialized in this function
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c: In function 'FlowMovie_UpdateEdogMenuInfo':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:260: warning: 'EdogMute' may be used uninitialized in this function
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowWndMovie.c:261: warning: 'SpeedLimit' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIWndNotUse.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIWndNotUse.c:9:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIWndNotUse.c: In function 'UIWndNotUse_OnTimer':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIWndNotUse.c:46: warning: unused variable 'test'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIWndNotUse.c:45: warning: unused variable 'counter'
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c:11:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c: In function 'UIFlowWndHome_OnOpen':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c:48: warning: implicit declaration of function 'Show_TP_Icon_Normal'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c:49: warning: implicit declaration of function 'GetRDInfo'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c:94: warning: conflicting types for 'Show_TP_Icon_Normal'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c:48: note: previous implicit declaration of 'Show_TP_Icon_Normal' was here
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c: In function 'UIFlowWndHome_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c:134: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c:188: warning: implicit declaration of function 'DrvSound_SetVol'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c:189: warning: implicit declaration of function 'DrvSound_GetVol'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c:112: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowHome/UIFlowWndHome.c:110: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieFuncs.c:1:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieFuncs.c:1:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:4:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:4:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c: In function 'FlowMovie_IconDrawDateTime':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:101: warning: unused variable 'Date'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c: In function 'FlowMovie_IconDrawDZoom':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:236: warning: unused variable 'bShow'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:421: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:458: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:719: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:798: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:839: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:879: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:930: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:980: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:1035: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c: In function 'FlowMovie_UpdateIcons':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:1155: warning: implicit declaration of function 'UIFlowWndMovie_IsGsensorTrig'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:17: warning: 'g_RecMaxTimeStr' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:18: warning: 'g_RecMaxTime' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:21: warning: 'date_str' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:22: warning: 'time_str' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.c:278: warning: 'LockFileBuf' defined but not used
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:16:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c: In function 'UIFlowWndPlay_OnOpen':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:338: warning: implicit declaration of function 'GetFilelistStatus'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:313: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c: In function 'UIFlowWndPlay_OnClose':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:372: warning: implicit declaration of function 'UIFlowMoviePlay_SetSpeed'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c: In function 'UIFlowWndPlay_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:430: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:405: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:582: warning: conflicting types for 'UIFlowMoviePlay_SetSpeed'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:372: note: previous implicit declaration of 'UIFlowMoviePlay_SetSpeed' was here
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c: In function 'UIFlowWndPlay_OnKeyDown':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:711: warning: control reaches end of non-void function
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c: In function 'UIFlowWndPlay_OnKeyUp':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:660: warning: control reaches end of non-void function
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:36: warning: 'g_uiDateTimerID' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:140: warning: 'uiPlaybackKeyPressed' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c: In function 'UIFlowWndPlay_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlay.c:403: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:5:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:9:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c: In function 'GetCurFileNum':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:89: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:85: warning: unused variable 'ret'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c: In function 'CheackTotleMoviePhotoFile':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:126: warning: unused variable 'j'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:125: warning: unused variable 'ret'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c: In function 'CheackFilePage':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:161: warning: unused variable 'ret'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c: In function 'Update_FileList':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:231: warning: unused variable 'ptrFileNameData'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:230: warning: unused variable 'FileNum'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:229: warning: unused variable 'ret'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c: In function 'UIFlowWndPlayFileList_OnOpen':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:373: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:377: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c: In function 'Cheack_PlayFile':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:398: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c: In function 'UIFlowWndPlayFileList_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:423: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:412: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c: In function 'CheackFilePage':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:162: warning: 'j' may be used uninitialized in this function
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c: In function 'UIFlowWndPlayFileList_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayFileList.c:410: warning: 'uiEvent' may be used uninitialized in this function
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayThumbRes.c:8,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayThumb.c:6:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayThumb.c:7:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayMagnify.c:6:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayMagnify.c:15:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayMagnify.c: In function 'UIFlowWndPlayMagnify_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayMagnify.c:189: warning: implicit declaration of function 'TPIsOnRange'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayMagnify.c:166: warning: unused variable 'uiSoundMask'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayMagnify.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayMagnify.c:49: warning: 'g_bShowOSD' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayMagnify.c: In function 'UIFlowWndPlayMagnify_TP':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowWndPlayMagnify.c:164: warning: 'uiEvent' may be used uninitialized in this function
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:16:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:20:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c: In function 'FlowPBUpdatePanelType':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:673: warning: implicit declaration of function 'SetIsMovieFile_Status'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:31: warning: 'FlowPB_IconDrawDSCMode' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:58: warning: 'FlowPB_IconDrawFlash' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:173: warning: 'FlowPB_IconDrawImageSize' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:226: warning: 'FlowPB_IconDrawWB' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:256: warning: 'FlowPB_IconDrawImageQuality' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:285: warning: 'FlowPB_IconDrawSharpness' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:296: warning: 'FlowPB_IconDrawStorage' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:329: warning: 'FlowPB_IconDrawBattery' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:344: warning: 'FlowPB_IconDrawHistogram' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:498: warning: 'FlowPB_IconDrawTime' defined but not used
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayIcons.c:572: warning: 'FlowPB_IconDrawMovStop' defined but not used
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayFuncs.c:6:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIFlow/UIFlowPlay/UIFlowPlayFuncs.c:6:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:20:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UICfgDefault.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:22:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c: In function 'Load_MenuInfo':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:178: warning: implicit declaration of function 'SetSPITPData'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:181: warning: implicit declaration of function 'SetTPWindow'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:195: warning: conflicting types for 'SetSPITPData'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:178: note: previous implicit declaration of 'SetSPITPData' was here
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c: In function 'Reset_MenuInfo':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:257: warning: implicit declaration of function 'SysSetZHCarNoStamp'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:258: warning: implicit declaration of function 'SysSetNZHCarNoStamp'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c: At top level:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:410: warning: conflicting types for 'SysSetNZHCarNoStamp'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:258: note: previous implicit declaration of 'SysSetNZHCarNoStamp' was here
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:419: warning: conflicting types for 'SysSetZHCarNoStamp'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:257: note: previous implicit declaration of 'SysSetZHCarNoStamp' was here
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c: In function 'SysResetFlag':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:563: warning: unused variable 'Data'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c: In function 'TPIsRangePossition':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1061: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1061: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1061: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1061: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1065: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1065: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1065: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1065: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c: In function 'TPIsOnRange':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1083: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1083: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1083: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1083: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c: In function 'TPIsOnRangeMenu':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1100: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1100: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1100: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1100: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c: In function 'TPIsOnRangeList':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1118: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1118: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1118: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1118: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c: In function 'TP_PhaseListItem_Index':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1136: warning: comparison between signed and unsigned integer expressions
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIWnd/DRIVER/UIInfo/UIInfo.c:1136: warning: comparison between signed and unsigned integer expressions
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/SensorFP.c:25:
+./SrcCode/Resource/Uiresource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Mode/UIModeCalibration.c:15:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Mode/UIModeCalibration.c:15:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Mode/UIModeMovie.c:15:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Mode/UIModeMovie.c:15:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Movie/UIAppMovie_Exe.c:27:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Movie/UIAppMovie_Exe.c:31:
+../../Include/DrvExt/GSensor/GSensor.h:161: warning: function declaration isn't a prototype
+../../Include/DrvExt/GSensor/GSensor.h:162: warning: function declaration isn't a prototype
+../../Include/DrvExt/GSensor/GSensor.h:163: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Movie/UIAppMovie_CB.c: In function 'UIMovie_ImmProc':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Movie/UIAppMovie_CB.c:264: warning: implicit declaration of function 'UIFlowWndMovie_IsGsensorTrig'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Movie/UIAppMovie_CB.c:266: warning: implicit declaration of function 'UIFlowWndMovie_SetGsensorTrigFlag'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Movie/UIAppMovie_CB.c:267: warning: implicit declaration of function 'FlowMovie_IconHideLockFile'
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Mode/UIModePhoto.c:16:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Mode/UIModePhoto.c:16:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Photo/UIAppPhoto_Exe.c:51:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Photo/UIDateImprint.c:10:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Mode/UIModePlayback.c:33:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Play/UIPlayComm.c:6:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/UIWnd/DRIVER/FlowPhotoParams.h:7,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Setup/UISetup_Exe.c:13:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Setup/UISetup_Exe.c: In function 'SetupExe_OnLanguage':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Setup/UISetup_Exe.c:438: warning: implicit declaration of function 'SysSetNZHCarNoStamp'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Setup/UISetup_Exe.c: In function 'SetupExe_OnLed':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Setup/UISetup_Exe.c:951: warning: implicit declaration of function 'GPIOMap_TurnOffWhiteLight'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Setup/UISetup_Exe.c:954: warning: implicit declaration of function 'GPIOMap_TurnOnWhiteLight'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Setup/UISetup_Exe.c: In function 'SetupExe_OnEdogSensitivity':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Setup/UISetup_Exe.c:1403: warning: unused variable 'uiValue'
+In file included from ./SrcCode/UI/UIGraphics.h:4,
+                 from ./SrcCode/System/UICommon.h:21,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:13,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Background/UIBackgroundObj.c:15:
+./SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/Background/UIBackgroundObj.c:15:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/UsbDisk/UIAppUsbDisk_Exe.c: In function 'AppInit_ModeUSBMSDC':
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/UsbDisk/UIAppUsbDisk_Exe.c:188: warning: unused variable 'pStrgDev3'
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/UIApp/UsbDisk/UIAppUsbDisk_Exe.c:187: warning: unused variable 'pStrgDev2'
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Resource/UIResource.c:5:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined
+In file included from ./SrcCode/UIWnd/DRIVER/UIFlow_DRIVE.h:45,
+                 from ./SrcCode/UIWnd/DRIVER/UIFlow.h:35,
+                 from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Resource/UIResource.c:14:
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:36: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:38: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:40: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:42: warning: function declaration isn't a prototype
+./SrcCode/UIWnd/DRIVER/UIFlow/UIFlowMovie/UIFlowMovieIcons.h:43: warning: function declaration isn't a prototype
+In file included from e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Resource/UIResource2.c:8:
+e:/workspace/NT96655_S600_A5/Project/DemoKit/SrcCode/Resource/UIResource.h:13: warning: "_UI_RESOLUTION_8000X480_" is not defined

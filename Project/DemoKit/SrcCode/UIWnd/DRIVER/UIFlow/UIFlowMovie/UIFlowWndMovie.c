@@ -2174,9 +2174,9 @@ void Show_RD_Speed(UINT32 speed,BOOL Enb)
 		speed = 0;	
 	}
 	
-    SpeedTotal=speed;
+    SpeedTotal = speed;
        
-	SpeedTotal1=SpeedTotal/100;
+	SpeedTotal1 = SpeedTotal/100;
 	if((SpeedTotal1 < 0)||(SpeedTotal1 > 9))
 	{
 		SpeedTotal1 = 0;
@@ -2481,90 +2481,44 @@ void UIFlowWndMovie_EdogInfo(void)
     UINT32 SAT_SIGNAL[4];
     #endif
     UINT32 uiCurrentSpeed=0;
-    static BOOL flag = 0;
+    static BOOL flag = FALSE;
     
     GPSRec_GetRMCDate(&RMCInfo);
     GetRDInfo(&RDInfo);
     GetGPSSingalLvl(&RD_GSV);
 
-#if 0
-    //if(RMCInfo.Status == 'A')
-        {
-        debug_msg("^G  NumOfSen:%d  ",RD_GSV.NumOfSen);
-    switch(RD_GSV.NumOfSen)
-        {
-        case 1:
-            debug_msg("^G  SAT01:%d  dB;SAT02:%d  dB;SAT03:%d  dB;SAT04:%d  dB\r\n",
-                RD_GSV.SAT01.SNR ,RD_GSV.SAT02.SNR ,RD_GSV.SAT03.SNR ,RD_GSV.SAT04.SNR);
-            #if SHOW_SAT_NUM
-            sprintf(GPSDB_str,"SAT01:%d  dB;SAT02:%d  dB;SAT03:%d  dB;SAT04:%d  dB",
-            RD_GSV.SAT01.SNR ,RD_GSV.SAT02.SNR ,RD_GSV.SAT03.SNR ,RD_GSV.SAT04.SNR );
-            #else
-            SAT_SIGNAL[0] = RD_GSV.SAT01.SNR;
-            SAT_SIGNAL[1] = RD_GSV.SAT02.SNR;
-            SAT_SIGNAL[2] = RD_GSV.SAT03.SNR;
-            SAT_SIGNAL[3] = RD_GSV.SAT04.SNR;
-            ChangeSequence(SAT_SIGNAL,SHOW_SAT_DATALEN);
-                debug_msg("^Y   %d  %d  %d  %d\r\n",SAT_SIGNAL[0],SAT_SIGNAL[1],SAT_SIGNAL[2],SAT_SIGNAL[3]);
-            #endif
-            break;
-            case 2:
-                debug_msg("^G SAT05:%d  dB;SAT06:%d  dB;SAT07:%d  dB;SAT08:%d  dB\r\n",
-                RD_GSV.SAT05.SNR ,RD_GSV.SAT06.SNR ,RD_GSV.SAT07.SNR ,RD_GSV.SAT08.SNR);
-                #if SHOW_SAT_NUM
-                sprintf(GPSDB_str,"SAT05:%d  dB;SAT06:%d  dB;SAT07:%d  dB;SAT08:%d  dB",
-            RD_GSV.SAT05.SNR ,RD_GSV.SAT06.SNR ,RD_GSV.SAT07.SNR ,RD_GSV.SAT08.SNR );
-                #else
-            SAT_SIGNAL[0] = RD_GSV.SAT05.SNR;
-            SAT_SIGNAL[1] = RD_GSV.SAT06.SNR;
-            SAT_SIGNAL[2] = RD_GSV.SAT07.SNR;
-            SAT_SIGNAL[3] = RD_GSV.SAT08.SNR;
-            ChangeSequence(SAT_SIGNAL,SHOW_SAT_DATALEN);
-                debug_msg("^Y   %d  %d  %d  %d\r\n",SAT_SIGNAL[0],SAT_SIGNAL[1],SAT_SIGNAL[2],SAT_SIGNAL[3]);
-            #endif
-            break;
-            case 3:
-                debug_msg("^G SAT09:%d  dB;SAT10:%d  dB;SAT11:%d  dB;SAT12:%d  dB\r\n",
-                RD_GSV.SAT09.SNR ,RD_GSV.SAT10.SNR ,RD_GSV.SAT11.SNR ,RD_GSV.SAT12.SNR);
-                #if SHOW_SAT_NUM
-                sprintf(GPSDB_str,"SAT09:%d  dB;SAT10:%d  dB;SAT11:%d  dB;SAT12:%d  dB",
-            RD_GSV.SAT09.SNR ,RD_GSV.SAT10.SNR ,RD_GSV.SAT11.SNR ,RD_GSV.SAT12.SNR );
-                #else
-            SAT_SIGNAL[0] = RD_GSV.SAT09.SNR;
-            SAT_SIGNAL[1] = RD_GSV.SAT10.SNR;
-            SAT_SIGNAL[2] = RD_GSV.SAT11.SNR;
-            SAT_SIGNAL[3] = RD_GSV.SAT12.SNR;
-            ChangeSequence(SAT_SIGNAL,SHOW_SAT_DATALEN);
-                debug_msg("^Y   %d  %d  %d  %d\r\n",SAT_SIGNAL[0],SAT_SIGNAL[1],SAT_SIGNAL[2],SAT_SIGNAL[3]);
-            #endif
-            break;
-        }
-        }
-#else
-        SAT_SIGNAL[0] = RDInfo.GPS_SNR1;
-        SAT_SIGNAL[1] = RDInfo.GPS_SNR2;
-        SAT_SIGNAL[2] = RDInfo.GPS_SNR3;
-        SAT_SIGNAL[3] = RDInfo.GPS_SNR4;
+
+	/* gps signal start */
+    SAT_SIGNAL[0] = RDInfo.GPS_SNR1;
+    SAT_SIGNAL[1] = RDInfo.GPS_SNR2;
+    SAT_SIGNAL[2] = RDInfo.GPS_SNR3;
+    SAT_SIGNAL[3] = RDInfo.GPS_SNR4;
         
-#endif
 #if SHOW_SAT_NUM
 
 #else
-     sprintf(GPSDB_str,"%d      %d      %d       %d ",
-     SAT_SIGNAL[0] ,SAT_SIGNAL[1] ,SAT_SIGNAL[2] ,SAT_SIGNAL[3] );
+     sprintf(GPSDB_str,"%d      %d      %d       %d ",SAT_SIGNAL[0] ,SAT_SIGNAL[1] ,SAT_SIGNAL[2] ,SAT_SIGNAL[3] );
 #endif
     //sprintf(GPSDB_str,"0   dB");
     UxCtrl_SetShow(&UIFlowWndMovie_GPSDBCtrl,FALSE);
     UxStatic_SetData(&UIFlowWndMovie_GPSDBCtrl,STATIC_VALUE,Txt_Pointer(GPSDB_str));
     if((IsNeedToShowGPSSignal==TRUE)&&(abs(SAT_SIGNAL[0]  - 100) <= 100) && abs(SAT_SIGNAL[1]  - 100) <= 100 && abs(SAT_SIGNAL[2]  - 100) <= 100 && abs(SAT_SIGNAL[3]  - 100) <= 100)
-       UxCtrl_SetShow(&UIFlowWndMovie_GPSDBCtrl,TRUE);
+    {
+		UxCtrl_SetShow(&UIFlowWndMovie_GPSDBCtrl,TRUE);
+    }
     else
+    {
        UxCtrl_SetShow(&UIFlowWndMovie_GPSDBCtrl,FALSE); 
-
+    }
+	/* gps signal end */
+	
       Show_RD_VolLvl(RDInfo.RD_volume);
       Show_RD_Mode(RDInfo.RD_City_Mode);
+	  
       if(RMCInfo.Status == 'A')
-      Show_RD_Angle(RMCInfo.Angle);
+      {
+          Show_RD_Angle(RMCInfo.Angle);
+      }
 
       uiCurrentSpeed = (UINT32)(RMCInfo.Speed*1.852);
 	  if(uiCurrentSpeed < 7)
@@ -2600,28 +2554,32 @@ void UIFlowWndMovie_EdogInfo(void)
 	  }
 
       
-if(UI_GetData(FL_RADAR_REPORT))//if(RDInfo.RD_IS_Connect)
-    UxState_SetData(&UIFlowWndMovie_Icon_RD_ONCtrl,STATE_CURITEM,UIFlowWndMovie_Icon_RD_ON_ICON_RD_ON);
-else
-    UxState_SetData(&UIFlowWndMovie_Icon_RD_ONCtrl,STATE_CURITEM,UIFlowWndMovie_Icon_RD_ON_ICON_RD_OFF);
-    
+	if(UI_GetData(FL_RADAR_REPORT))//if(RDInfo.RD_IS_Connect)
+	{
+    	UxState_SetData(&UIFlowWndMovie_Icon_RD_ONCtrl,STATE_CURITEM,UIFlowWndMovie_Icon_RD_ON_ICON_RD_ON);
+	}
+	else
+	{
+    	UxState_SetData(&UIFlowWndMovie_Icon_RD_ONCtrl,STATE_CURITEM,UIFlowWndMovie_Icon_RD_ON_ICON_RD_OFF);
+	}
     UxState_SetData(&UIFlowWndMovie_Icon_RD_EYECtrl,STATE_CURITEM,UI_GetData(FL_RADAR_ONOFF)); 
 
-      switch(RDInfo.kind)
-        {
-        case  RD_WAR_NONE:
+    switch(RDInfo.kind)
+    {
+    	case  RD_WAR_NONE:
             UxCtrl_SetShow(&UIFlowWndMovie_Icon_Radar_WaringCtrl,FALSE);
             UxCtrl_SetShow(&UIFlowWndMovie_DistanceCtrl,FALSE);
             UxCtrl_SetShow(&UIFlowWndMovie_Icon_Speed_limit_PanelCtrl,FALSE);
             //FlowMovie_UpdateIcons(TRUE);
             if(NeedRedorwWindow)
-                {
+            {
                 NeedRedorwWindow = FALSE;
                 Refresh_Screen_Display();
                 
             //Ux_OpenWindow(&UIWndNotUseCtrl,0);
-                }
+            }
             break;
+			
         case  RD_WAR_WAR_TYPE:
             NeedRedorwWindow = TRUE;
             UxCtrl_SetShow(&UIFlowWndMovie_Panel_WarHighSpeedCtrl,FALSE);
@@ -2632,31 +2590,35 @@ else
             UxCtrl_SetShow(&UIFlowWndMovie_Panel_WarningCtrl,TRUE);
             UxCtrl_SetShow(&UIFlowWndMovie_Icon_Speed_limit_PanelCtrl,TRUE);
             break;
-        case  RD_WAR_SPEED_LIMIT:
+			
+        case RD_WAR_SPEED_LIMIT:
             NeedRedorwWindow = TRUE;
             if(RDInfo.limitspeed <999)
+            {
+                if(RDInfo.limitspeed/100 > 0)
                 {
-                if(RDInfo.limitspeed/100 >0)
-                  {
-                    UxState_SetData(&UIFlowWndMovie_Speed_MCtrl,STATE_CURITEM,(RDInfo.limitspeed%100)/10);
+                	UxState_SetData(&UIFlowWndMovie_Speed_HCtrl,STATE_CURITEM,RDInfo.limitspeed/100);
+                	UxState_SetData(&UIFlowWndMovie_Speed_MCtrl,STATE_CURITEM,(RDInfo.limitspeed%100)/10);
                     UxState_SetData(&UIFlowWndMovie_Speed_LCtrl,STATE_CURITEM,(RDInfo.limitspeed%10));
+					
                     UxCtrl_SetShow(&UIFlowWndMovie_Panel_WarHighSpeedCtrl,TRUE);
                     UxCtrl_SetShow(&UIFlowWndMovie_Panel_WarLowSpeedCtrl,FALSE);
-                   }
+                }
                 else
-                    {
+                {
                     UxState_SetData(&UIFlowWndMovie_Speed_LowModeHCtrl,STATE_CURITEM,RDInfo.limitspeed/10);
                     UxState_SetData(&UIFlowWndMovie_Speed_LowModeLCtrl,STATE_CURITEM,(RDInfo.limitspeed%10));
-                    
+
                     UxCtrl_SetShow(&UIFlowWndMovie_Panel_WarHighSpeedCtrl,FALSE);
                     UxCtrl_SetShow(&UIFlowWndMovie_Panel_WarLowSpeedCtrl,TRUE);
-                    }
-                }
+                 }
+            }
             UxCtrl_SetShow(&UIFlowWndMovie_DistanceCtrl,FALSE);
             UxCtrl_SetShow(&UIFlowWndMovie_Panel_Warning_TypeCtrl,FALSE);
             UxCtrl_SetShow(&UIFlowWndMovie_Panel_WarningCtrl,TRUE);
             UxCtrl_SetShow(&UIFlowWndMovie_Icon_Speed_limit_PanelCtrl,TRUE);
             break;
+			
         	case  RD_WAR_DISTANCE_1:
             case  RD_WAR_DISTANCE_2:
 			if(RDInfo.distance <999)
@@ -2687,28 +2649,29 @@ else
         case  RD_WAR_SPEEDLIMIT_AND_DISTANCE:
             NeedRedorwWindow = TRUE;
             if(RDInfo.limitspeed <999)
-                {
+            {
                 if(RDInfo.limitspeed/100 >0)
-                    {
+                {
+                	UxState_SetData(&UIFlowWndMovie_Speed_MCtrl,STATE_CURITEM,(RDInfo.limitspeed/100));
                     UxState_SetData(&UIFlowWndMovie_Speed_MCtrl,STATE_CURITEM,(RDInfo.limitspeed%100)/10);
                     UxState_SetData(&UIFlowWndMovie_Speed_LCtrl,STATE_CURITEM,(RDInfo.limitspeed%10));
                     UxCtrl_SetShow(&UIFlowWndMovie_Panel_WarHighSpeedCtrl,TRUE);
                     UxCtrl_SetShow(&UIFlowWndMovie_Panel_WarLowSpeedCtrl,FALSE);
-                    }
+                }
                 else
-                    {
+                {
                     UxState_SetData(&UIFlowWndMovie_Speed_LowModeHCtrl,STATE_CURITEM,RDInfo.limitspeed/10);
                     UxState_SetData(&UIFlowWndMovie_Speed_LowModeLCtrl,STATE_CURITEM,(RDInfo.limitspeed%10));
                     
                     UxCtrl_SetShow(&UIFlowWndMovie_Panel_WarHighSpeedCtrl,FALSE);
                     UxCtrl_SetShow(&UIFlowWndMovie_Panel_WarLowSpeedCtrl,TRUE);
-                    }
                 }
+            }
             if(RDInfo.distance <999)
             {
-            UxState_SetData(&UIFlowWndMovie_Distance_HCtrl,STATE_CURITEM,RDInfo.distance/100);
-            UxState_SetData(&UIFlowWndMovie_Distance_MCtrl,STATE_CURITEM,(RDInfo.distance%100)/10);
-            UxState_SetData(&UIFlowWndMovie_Distance_LCtrl,STATE_CURITEM,RDInfo.distance%10);
+            	UxState_SetData(&UIFlowWndMovie_Distance_HCtrl,STATE_CURITEM,RDInfo.distance/100);
+            	UxState_SetData(&UIFlowWndMovie_Distance_MCtrl,STATE_CURITEM,(RDInfo.distance%100)/10);
+            	UxState_SetData(&UIFlowWndMovie_Distance_LCtrl,STATE_CURITEM,RDInfo.distance%10);
             }
             UxCtrl_SetShow(&UIFlowWndMovie_DistanceCtrl,TRUE);
             UxCtrl_SetShow(&UIFlowWndMovie_Panel_Warning_TypeCtrl,FALSE);
